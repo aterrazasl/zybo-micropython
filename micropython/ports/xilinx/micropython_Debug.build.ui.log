@@ -1,0 +1,186 @@
+2023-04-29T22:06:34.44530600255-22:06:34 **** Incremental Build of configuration Debug for project micropython ****
+000-/home/antonio/git/vitisMicroPython/micropython/ports/xilinx/mymake.sh all 
+000-PATH env:
+000-/tools/Xilinx/Vitis/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/linux_toolchain/lin64_be/bin:/tools/Xilinx/Vitis/2022.2/gnu/arm/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-none/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-linux/bin:/tools/Xilinx/Vitis/2022.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/cmake-3.21.4/bin::/tools/Xilinx/Vivado/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/bin:/tools/Xilinx/Vitis_HLS/2022.2/bin:/tools/Xilinx/Vitis/2022.2/aietools/bin:/tools/Xilinx/Vivado/2022.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+000-
+000-Python Home:
+000-
+000-
+000-Python Path:
+000-
+000-
+000-Python sys:
+000-
+000-removing build directory:
+000-Starting Make:
+000-mkdir -p build/genhdr
+000-['../../py/makeversionhdr.py', 'build/genhdr/mpversion.h']
+000-/usr/bin/python3
+000-3.10.6 (main, Mar 10 2023, 10:55:28) [GCC 11.3.0]
+000-Paths:
+000-['/home/antonio/git/vitisMicroPython/micropython/py', '/usr/lib/python310.zip', '/usr/lib/python3.10', '/usr/lib/python3.10/lib-dynload', '/usr/local/lib/python3.10/dist-packages', '/usr/lib/python3/dist-packages']
+000-Done!!
+000-GEN build/genhdr/mpversion.h
+000-GEN build/genhdr/qstr.i.last
+000-GEN build/genhdr/qstr.split
+000-GEN build/genhdr/qstrdefs.collected.h
+000-QSTR updated
+000-GEN build/genhdr/qstrdefs.generated.h
+000-GEN build/genhdr/moduledefs.split
+000-GEN build/genhdr/moduledefs.collected
+000-Module registrations updated
+000-GEN build/genhdr/moduledefs.h
+000-GEN build/genhdr/root_pointers.split
+000-GEN build/genhdr/root_pointers.collected
+000-Root pointer registrations updated
+000-GEN build/genhdr/root_pointers.h
+000-GEN build/genhdr/compressed.split
+000-GEN build/genhdr/compressed.collected
+000-Compressed data updated
+000-GEN build/genhdr/compressed.data.h
+000-mkdir -p build/build/
+000-mkdir -p build/py/
+000-mkdir -p build/shared/libc/
+000-mkdir -p build/shared/readline/
+000-mkdir -p build/shared/runtime/
+000-CC ../../py/mpstate.c
+000-CC ../../py/nlr.c
+000-CC ../../py/nlrx86.c
+000-CC ../../py/nlrx64.c
+000-CC ../../py/nlrthumb.c
+000-CC ../../py/nlraarch64.c
+000-CC ../../py/nlrmips.c
+000-CC ../../py/nlrpowerpc.c
+000-CC ../../py/nlrxtensa.c
+000-CC ../../py/nlrsetjmp.c
+000-CC ../../py/malloc.c
+000-CC ../../py/gc.c
+000-CC ../../py/pystack.c
+000-CC ../../py/qstr.c
+000-CC ../../py/vstr.c
+000-CC ../../py/mpprint.c
+000-CC ../../py/unicode.c
+000-CC ../../py/mpz.c
+000-CC ../../py/reader.c
+000-CC ../../py/lexer.c
+000-CC ../../py/parse.c
+000-CC ../../py/scope.c
+000-CC ../../py/compile.c
+000-CC ../../py/emitcommon.c
+000-CC ../../py/emitbc.c
+000-CC ../../py/asmbase.c
+000-CC ../../py/asmx64.c
+000-CC ../../py/emitnx64.c
+000-CC ../../py/asmx86.c
+000-CC ../../py/emitnx86.c
+000-CC ../../py/asmthumb.c
+000-CC ../../py/emitnthumb.c
+000-CC ../../py/emitinlinethumb.c
+000-CC ../../py/asmarm.c
+000-CC ../../py/emitnarm.c
+000-CC ../../py/asmxtensa.c
+000-CC ../../py/emitnxtensa.c
+000-CC ../../py/emitinlinextensa.c
+000-CC ../../py/emitnxtensawin.c
+000-CC ../../py/formatfloat.c
+000-CC ../../py/parsenumbase.c
+000-CC ../../py/parsenum.c
+000-CC ../../py/emitglue.c
+000-CC ../../py/persistentcode.c
+000-CC ../../py/runtime.c
+000-CC ../../py/runtime_utils.c
+000-CC ../../py/scheduler.c
+000-CC ../../py/nativeglue.c
+000-CC ../../py/pairheap.c
+000-CC ../../py/ringbuf.c
+000-CC ../../py/stackctrl.c
+000-CC ../../py/argcheck.c
+000-CC ../../py/warning.c
+000-CC ../../py/profile.c
+000-CC ../../py/map.c
+000-CC ../../py/obj.c
+000-CC ../../py/objarray.c
+000-CC ../../py/objattrtuple.c
+000-CC ../../py/objbool.c
+000-CC ../../py/objboundmeth.c
+000-CC ../../py/objcell.c
+000-CC ../../py/objclosure.c
+000-CC ../../py/objcomplex.c
+000-CC ../../py/objdeque.c
+000-CC ../../py/objdict.c
+000-CC ../../py/objenumerate.c
+000-CC ../../py/objexcept.c
+000-CC ../../py/objfilter.c
+000-CC ../../py/objfloat.c
+000-CC ../../py/objfun.c
+000-CC ../../py/objgenerator.c
+000-CC ../../py/objgetitemiter.c
+000-CC ../../py/objint.c
+000-CC ../../py/objint_longlong.c
+000-CC ../../py/objint_mpz.c
+000-CC ../../py/objlist.c
+000-CC ../../py/objmap.c
+000-CC ../../py/objmodule.c
+000-CC ../../py/objobject.c
+000-CC ../../py/objpolyiter.c
+000-CC ../../py/objproperty.c
+000-CC ../../py/objnone.c
+000-CC ../../py/objnamedtuple.c
+000-CC ../../py/objrange.c
+000-CC ../../py/objreversed.c
+000-CC ../../py/objset.c
+000-CC ../../py/objsingleton.c
+000-CC ../../py/objslice.c
+000-CC ../../py/objstr.c
+000-CC ../../py/objstrunicode.c
+000-CC ../../py/objstringio.c
+000-CC ../../py/objtuple.c
+000-CC ../../py/objtype.c
+000-CC ../../py/objzip.c
+000-CC ../../py/opmethods.c
+000-CC ../../py/sequence.c
+000-CC ../../py/stream.c
+000-CC ../../py/binary.c
+000-CC ../../py/builtinimport.c
+000-CC ../../py/builtinevex.c
+000-CC ../../py/builtinhelp.c
+000-CC ../../py/modarray.c
+000-CC ../../py/modbuiltins.c
+000-CC ../../py/modcollections.c
+000-CC ../../py/modgc.c
+000-CC ../../py/modio.c
+000-CC ../../py/modmath.c
+000-CC ../../py/modcmath.c
+000-CC ../../py/modmicropython.c
+000-CC ../../py/modstruct.c
+000-CC ../../py/modsys.c
+000-CC ../../py/moduerrno.c
+000-CC ../../py/modthread.c
+000-CC ../../py/vm.c
+000-CC ../../py/bc.c
+000-CC ../../py/showbc.c
+000-CC ../../py/repl.c
+000-CC ../../py/smallint.c
+000-CC ../../py/frozenmod.c
+000-CC main.c
+000-CC uart_core.c
+000-CC ../../shared/libc/printf.c
+000-CC ../../shared/readline/readline.c
+000-CC ../../shared/runtime/pyexec.c
+000-CC ../../shared/runtime/stdout_helpers.c
+000-MISC freezing bytecode
+000-CC build/_frozen_mpy.c
+000-CC ../../shared/libc/string0.c
+000-LINK build/micropython.elf
+000-   text	   data	    bss	    dec	    hex	filename
+000- 390245	   1148	  25080	 416473	  65ad9	build/micropython.elf
+000-Finished LINK: build/micropython.elf
+000-Invoking: ARM v7 Print Size
+000-arm-none-eabi-size build/micropython.elf  |tee "micropython.elf.size"
+000-   text	   data	    bss	    dec	    hex	filename
+000- 390245	   1148	  25080	 416473	  65ad9	build/micropython.elf
+000-Finished building: build/micropython.elf.size
+000- 
+00255-
+22:06:53 Build Finished (took 18s.919ms)
+

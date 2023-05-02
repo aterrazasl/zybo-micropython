@@ -1,0 +1,58 @@
+build/py/objfun.o build/py/objfun.o: ../../py/objfun.c \
+ ../../py/objtuple.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h \
+ ../../py/misc.h build/genhdr/compressed.data.h ../../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h \
+ ../../py/objfun.h ../../py/bc.h ../../py/runtime.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h ../../py/objlist.h \
+ ../../py/objexcept.h build/genhdr/root_pointers.h ../../py/pystack.h \
+ ../../py/stackctrl.h
+../../py/objtuple.h:
+../../py/obj.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/objfun.h:
+../../py/bc.h:
+../../py/runtime.h:
+../../py/mpstate.h:
+../../py/mpthread.h:
+../../py/nlr.h:
+../../py/objlist.h:
+../../py/objexcept.h:
+build/genhdr/root_pointers.h:
+../../py/pystack.h:
+../../py/stackctrl.h:
+../../py/objfun.c :
+ ../../py/objtuple.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h :
+ ../../py/misc.h build/genhdr/compressed.data.h ../../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h :
+ ../../py/objfun.h ../../py/bc.h ../../py/runtime.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h ../../py/objlist.h :
+ ../../py/objexcept.h build/genhdr/root_pointers.h ../../py/pystack.h :
+ ../../py/stackctrl.h :
+../../py/objtuple.h: :
+../../py/obj.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :
+../../py/objfun.h: :
+../../py/bc.h: :
+../../py/runtime.h: :
+../../py/mpstate.h: :
+../../py/mpthread.h: :
+../../py/nlr.h: :
+../../py/objlist.h: :
+../../py/objexcept.h: :
+build/genhdr/root_pointers.h: :
+../../py/pystack.h: :
+../../py/stackctrl.h: :

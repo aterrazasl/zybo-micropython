@@ -1,0 +1,26 @@
+build/py/objcell.o build/py/objcell.o: ../../py/objcell.c ../../py/obj.h \
+ ../../py/mpconfig.h mpconfigport.h ../../py/misc.h \
+ build/genhdr/compressed.data.h ../../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h
+../../py/obj.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/objcell.c ../../py/obj.h :
+ ../../py/mpconfig.h mpconfigport.h ../../py/misc.h :
+ build/genhdr/compressed.data.h ../../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h :
+../../py/obj.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :

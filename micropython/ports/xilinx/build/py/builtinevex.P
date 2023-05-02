@@ -1,0 +1,70 @@
+build/py/builtinevex.o build/py/builtinevex.o: ../../py/builtinevex.c \
+ ../../py/objfun.h ../../py/bc.h ../../py/runtime.h ../../py/mpstate.h \
+ ../../py/mpconfig.h mpconfigport.h ../../py/mpthread.h ../../py/misc.h \
+ build/genhdr/compressed.data.h ../../py/nlr.h ../../py/obj.h \
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
+ ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h \
+ ../../py/objtuple.h build/genhdr/root_pointers.h ../../py/pystack.h \
+ ../../py/compile.h ../../py/lexer.h ../../py/reader.h ../../py/parse.h \
+ ../../py/emitglue.h ../../py/builtin.h
+../../py/objfun.h:
+../../py/bc.h:
+../../py/runtime.h:
+../../py/mpstate.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/mpthread.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/nlr.h:
+../../py/obj.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/objlist.h:
+../../py/objexcept.h:
+../../py/objtuple.h:
+build/genhdr/root_pointers.h:
+../../py/pystack.h:
+../../py/compile.h:
+../../py/lexer.h:
+../../py/reader.h:
+../../py/parse.h:
+../../py/emitglue.h:
+../../py/builtin.h:
+../../py/builtinevex.c :
+ ../../py/objfun.h ../../py/bc.h ../../py/runtime.h ../../py/mpstate.h :
+ ../../py/mpconfig.h mpconfigport.h ../../py/mpthread.h ../../py/misc.h :
+ build/genhdr/compressed.data.h ../../py/nlr.h ../../py/obj.h :
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
+ ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h :
+ ../../py/objtuple.h build/genhdr/root_pointers.h ../../py/pystack.h :
+ ../../py/compile.h ../../py/lexer.h ../../py/reader.h ../../py/parse.h :
+ ../../py/emitglue.h ../../py/builtin.h :
+../../py/objfun.h: :
+../../py/bc.h: :
+../../py/runtime.h: :
+../../py/mpstate.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+../../py/mpthread.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/nlr.h: :
+../../py/obj.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :
+../../py/objlist.h: :
+../../py/objexcept.h: :
+../../py/objtuple.h: :
+build/genhdr/root_pointers.h: :
+../../py/pystack.h: :
+../../py/compile.h: :
+../../py/lexer.h: :
+../../py/reader.h: :
+../../py/parse.h: :
+../../py/emitglue.h: :
+../../py/builtin.h: :

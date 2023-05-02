@@ -1,0 +1,8 @@
+build/py/asmthumb.o build/py/asmthumb.o: ../../py/asmthumb.c \
+ ../../py/mpconfig.h mpconfigport.h
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/asmthumb.c :
+ ../../py/mpconfig.h mpconfigport.h :
+../../py/mpconfig.h: :
+mpconfigport.h: :

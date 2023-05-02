@@ -1,0 +1,59 @@
+build/shared/readline/readline.o build/shared/readline/readline.o: \
+ ../../shared/readline/readline.c ../../py/mpstate.h ../../py/mpconfig.h \
+ mpconfigport.h ../../py/mpthread.h ../../py/misc.h \
+ build/genhdr/compressed.data.h ../../py/nlr.h ../../py/obj.h \
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h \
+ ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h \
+ ../../py/objtuple.h build/genhdr/root_pointers.h ../../py/repl.h \
+ ../../py/mphal.h mphalport.h ../../extmod/virtpin.h \
+ ../../shared/readline/readline.h
+../../py/mpstate.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/mpthread.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/nlr.h:
+../../py/obj.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/objlist.h:
+../../py/objexcept.h:
+../../py/objtuple.h:
+build/genhdr/root_pointers.h:
+../../py/repl.h:
+../../py/mphal.h:
+mphalport.h:
+../../extmod/virtpin.h:
+../../shared/readline/readline.h:
+ ../../shared/readline/readline.c ../../py/mpstate.h ../../py/mpconfig.h :
+ mpconfigport.h ../../py/mpthread.h ../../py/misc.h :
+ build/genhdr/compressed.data.h ../../py/nlr.h ../../py/obj.h :
+ ../../py/qstr.h build/genhdr/qstrdefs.generated.h ../../py/mpprint.h :
+ ../../py/runtime0.h ../../py/objlist.h ../../py/objexcept.h :
+ ../../py/objtuple.h build/genhdr/root_pointers.h ../../py/repl.h :
+ ../../py/mphal.h mphalport.h ../../extmod/virtpin.h :
+ ../../shared/readline/readline.h :
+../../py/mpstate.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+../../py/mpthread.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/nlr.h: :
+../../py/obj.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :
+../../py/objlist.h: :
+../../py/objexcept.h: :
+../../py/objtuple.h: :
+build/genhdr/root_pointers.h: :
+../../py/repl.h: :
+../../py/mphal.h: :
+mphalport.h: :
+../../extmod/virtpin.h: :
+../../shared/readline/readline.h: :

@@ -1,0 +1,28 @@
+build/py/modarray.o build/py/modarray.o: ../../py/modarray.c \
+ ../../py/builtin.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h \
+ ../../py/misc.h build/genhdr/compressed.data.h ../../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h
+../../py/builtin.h:
+../../py/obj.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/modarray.c :
+ ../../py/builtin.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h :
+ ../../py/misc.h build/genhdr/compressed.data.h ../../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h :
+../../py/builtin.h: :
+../../py/obj.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :

@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+ 390245	   1148	  25080	 416473	  65ad9	build/micropython.elf

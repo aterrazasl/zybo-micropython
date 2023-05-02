@@ -1,0 +1,28 @@
+build/py/pairheap.o build/py/pairheap.o: ../../py/pairheap.c \
+ ../../py/pairheap.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h \
+ ../../py/misc.h build/genhdr/compressed.data.h ../../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h
+../../py/pairheap.h:
+../../py/obj.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/pairheap.c :
+ ../../py/pairheap.h ../../py/obj.h ../../py/mpconfig.h mpconfigport.h :
+ ../../py/misc.h build/genhdr/compressed.data.h ../../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h :
+../../py/pairheap.h: :
+../../py/obj.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :

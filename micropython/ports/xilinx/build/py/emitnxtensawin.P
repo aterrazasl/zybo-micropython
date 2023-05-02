@@ -1,0 +1,7 @@
+build/py/emitnxtensawin.o build/py/emitnxtensawin.o: \
+ ../../py/emitnxtensawin.c ../../py/mpconfig.h mpconfigport.h
+../../py/mpconfig.h:
+mpconfigport.h:
+ ../../py/emitnxtensawin.c ../../py/mpconfig.h mpconfigport.h :
+../../py/mpconfig.h: :
+mpconfigport.h: :

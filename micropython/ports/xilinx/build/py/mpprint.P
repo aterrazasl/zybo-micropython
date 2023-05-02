@@ -1,0 +1,64 @@
+build/py/mpprint.o build/py/mpprint.o: ../../py/mpprint.c \
+ ../../py/mphal.h ../../py/mpconfig.h mpconfigport.h mphalport.h \
+ ../../extmod/virtpin.h ../../py/obj.h ../../py/misc.h \
+ build/genhdr/compressed.data.h ../../py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h \
+ ../../py/objint.h ../../py/mpz.h ../../py/runtime.h ../../py/mpstate.h \
+ ../../py/mpthread.h ../../py/nlr.h ../../py/objlist.h \
+ ../../py/objexcept.h ../../py/objtuple.h build/genhdr/root_pointers.h \
+ ../../py/pystack.h
+../../py/mphal.h:
+../../py/mpconfig.h:
+mpconfigport.h:
+mphalport.h:
+../../extmod/virtpin.h:
+../../py/obj.h:
+../../py/misc.h:
+build/genhdr/compressed.data.h:
+../../py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../py/mpprint.h:
+../../py/runtime0.h:
+../../py/objint.h:
+../../py/mpz.h:
+../../py/runtime.h:
+../../py/mpstate.h:
+../../py/mpthread.h:
+../../py/nlr.h:
+../../py/objlist.h:
+../../py/objexcept.h:
+../../py/objtuple.h:
+build/genhdr/root_pointers.h:
+../../py/pystack.h:
+../../py/mpprint.c :
+ ../../py/mphal.h ../../py/mpconfig.h mpconfigport.h mphalport.h :
+ ../../extmod/virtpin.h ../../py/obj.h ../../py/misc.h :
+ build/genhdr/compressed.data.h ../../py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../py/mpprint.h ../../py/runtime0.h :
+ ../../py/objint.h ../../py/mpz.h ../../py/runtime.h ../../py/mpstate.h :
+ ../../py/mpthread.h ../../py/nlr.h ../../py/objlist.h :
+ ../../py/objexcept.h ../../py/objtuple.h build/genhdr/root_pointers.h :
+ ../../py/pystack.h :
+../../py/mphal.h: :
+../../py/mpconfig.h: :
+mpconfigport.h: :
+mphalport.h: :
+../../extmod/virtpin.h: :
+../../py/obj.h: :
+../../py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../py/mpprint.h: :
+../../py/runtime0.h: :
+../../py/objint.h: :
+../../py/mpz.h: :
+../../py/runtime.h: :
+../../py/mpstate.h: :
+../../py/mpthread.h: :
+../../py/nlr.h: :
+../../py/objlist.h: :
+../../py/objexcept.h: :
+../../py/objtuple.h: :
+build/genhdr/root_pointers.h: :
+../../py/pystack.h: :
