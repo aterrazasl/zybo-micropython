@@ -6,5 +6,5 @@ It can run under zybo z7 board
 
 By default the port will be built for the host machine:
 
-    $ make
+    $ ./mymake
 
