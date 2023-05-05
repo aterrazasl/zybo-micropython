@@ -1,8 +1,0 @@
-build/py/asmarm.o build/py/asmarm.o: ../../py/asmarm.c \
- ../../py/mpconfig.h mpconfigport.h
-../../py/mpconfig.h:
-mpconfigport.h:
-../../py/asmarm.c :
- ../../py/mpconfig.h mpconfigport.h :
-../../py/mpconfig.h: :
-mpconfigport.h: :

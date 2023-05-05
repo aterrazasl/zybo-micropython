@@ -1,3 +1,0 @@
-build/shared/libc/string0.o build/shared/libc/string0.o: \
- ../../shared/libc/string0.c
- ../../shared/libc/string0.c :

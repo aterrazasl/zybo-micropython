@@ -1,8 +1,0 @@
-build/py/asmx86.o build/py/asmx86.o: ../../py/asmx86.c \
- ../../py/mpconfig.h mpconfigport.h
-../../py/mpconfig.h:
-mpconfigport.h:
-../../py/asmx86.c :
- ../../py/mpconfig.h mpconfigport.h :
-../../py/mpconfig.h: :
-mpconfigport.h: :

@@ -1,6 +1,0 @@
-build/py/ringbuf.o build/py/ringbuf.o: ../../py/ringbuf.c \
- ../../py/ringbuf.h
-../../py/ringbuf.h:
-../../py/ringbuf.c :
- ../../py/ringbuf.h :
-../../py/ringbuf.h: :
