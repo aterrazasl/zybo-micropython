@@ -1,0 +1,92 @@
+include ../../micropython/py/mkenv.mk
+
+# Add inputs and outputs from these tool invocations to the build variables 
+ELFSIZE += \
+micropython.elf.size \
+
+
+# qstr definitions (must come before including py.mk)
+QSTR_DEFS = qstrdefsport.h
+
+# MicroPython feature configurations
+MICROPY_ROM_TEXT_COMPRESSION ?= 1
+
+
+# include py core make definitions
+include $(TOP)/py/py.mk
+
+CROSS_COMPILE ?= arm-none-eabi-
+
+INC += -I.
+INC += -I$(TOP)
+INC += -I$(BUILD)
+INC += -I/home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include
+
+
+
+#CFLAGS_CORTEX_M4 = -mthumb -mtune=cortex-m4 -mcpu=cortex-m4 -msoft-float -fsingle-precision-constant -Wdouble-promotion -Wfloat-conversion
+#CFLAGS += $(INC) -Wall -Werror -std=c99 -nostdlib $(CFLAGS_CORTEX_M4) $(COPT)
+LDFLAGS += -nostdlib -T stm32f405.ld -Map=$@.map --cref --gc-sections
+MYLDFLAGS += -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,lscript.ld -L/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bsplib/lib #-o "mp_minimum.elf" $(OBJS) $(USER_OBJS) $(LIBS)
+
+CFLAGS = $(INC) -std=c99 -nostdlib -mthumb -fsingle-precision-constant -Wdouble-promotion -Wfloat-conversion  -DNDEBUG -fdata-sections -ffunction-sections -DMICROPY_ROM_TEXT_COMPRESSION=1 -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"   
+
+# Flags for optional C++ source code
+CXXFLAGS += $(filter-out -std=c99,$(CFLAGS))
+
+LIBS =
+
+SRC_C = \
+	main.c \
+	uart_core.c \
+	shared/libc/printf.c \
+	shared/readline/readline.c \
+	shared/runtime/pyexec.c \
+	shared/runtime/stdout_helpers.c \
+	$(BUILD)/_frozen_mpy.c \
+
+SRC_C += shared/libc/string0.c
+
+SRC_QSTR += shared/readline/readline.c shared/runtime/pyexec.c
+
+OBJ += $(PY_CORE_O)
+OBJ += $(addprefix $(BUILD)/, $(SRC_C:.c=.o))
+OBJ += $(addprefix $(BUILD)/, $(SRC_CXX:.cpp=.o))
+
+all: $(BUILD)/$(ELFSIZE)
+
+$(BUILD)/_frozen_mpy.c: $(TOP)/tests/frozen/frozentest.mpy $(BUILD)/genhdr/qstrdefs.generated.h
+	$(ECHO) "MISC freezing bytecode"
+	$(Q)$(TOP)/tools/mpy-tool.py -f -q $(BUILD)/genhdr/qstrdefs.preprocessed.h -mlongint-impl=none $< > $@
+
+$(BUILD)/micropython.elf: $(OBJ)
+	$(ECHO) "LINK $@"
+	$(Q)$(CC) $(MYLDFLAGS) -o $@ $^ $(LIBS)  -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+	$(Q)$(SIZE) $@
+	@echo 'Finished LINK: $@'
+
+$(BUILD)/micropython.elf.size: $(BUILD)/micropython.elf
+	@echo 'Invoking: ARM v7 Print Size'
+	arm-none-eabi-size $(BUILD)/micropython.elf  |tee "micropython.elf.size"
+	@echo 'Finished building: $@'
+	@echo ' '
+
+
+$(BUILD)/firmware.bin: $(BUILD)/micropython.elf
+	$(Q)$(OBJCOPY) -O binary -j .isr_vector -j .text -j .data $^ $(BUILD)/firmware.bin
+
+
+# Run emulation build on a POSIX system with suitable terminal settings
+run:
+	@saved_=`stty -g`; \
+	  stty raw opost -echo; \
+	  $(BUILD)/micropython.elf; \
+	  echo "Exit status: $$?"; \
+	  stty $$saved_
+
+test: $(BUILD)/micropython.elf
+	$(Q)/bin/echo -e "print('hello world!', list(x+1 for x in range(10)), end='eol\\\\n')\\r\\n\\x04" | $(BUILD)/micropython.elf | tail -n2 | grep "^hello world! \\[1, 2, 3, 4, 5, 6, 7, 8, 9, 10\\]eol"
+
+include $(TOP)/py/mkrules.mk
+
+-include ../makefile.targets

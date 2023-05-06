@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo removing build directory:
+rm -R build
+
+echo Starting Make:
+make V=1
+cp build/micropython.elf ../../Debug/micropy.elf
+

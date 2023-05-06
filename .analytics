@@ -50,10 +50,3 @@ timestamp=[2023-05-05 21:19:57], mode=BUILD, duration=0:00:23.367, duration_ms=2
 timestamp=[2023-05-05 21:20:51], mode=BUILD, duration=0:00:25.322, duration_ms=25322, data={name=micropy, configuration=Debug, clean_build=false}
 timestamp=[2023-05-05 21:21:28], mode=BUILD, duration=0:00:23.221, duration_ms=23221, data={name=micropy, configuration=Debug, clean_build=false}
 timestamp=[2023-05-05 21:21:38], mode=BUILD, duration=0:00:08.857, duration_ms=8857, data={name=micropy_system, configuration=Debug, clean_build=false}
-timestamp=[2023-05-05 21:55:40], mode=BUILD, duration=0:00:25.290, duration_ms=25290, data={name=micropy, configuration=Debug, clean_build=false}
-timestamp=[2023-05-05 21:56:43], mode=BUILD, duration=0:00:25.828, duration_ms=25828, data={name=micropy, configuration=Debug, clean_build=false}
-timestamp=[2023-05-05 21:57:25], mode=BUILD, duration=0:00:23.449, duration_ms=23449, data={name=micropy, configuration=Debug, clean_build=false}
-timestamp=[2023-05-05 21:57:37], mode=BUILD, duration=0:00:10.063, duration_ms=10063, data={name=micropy_system, configuration=Debug, clean_build=false}
-timestamp=[2023-05-05 21:58:18], mode=WORKBENCH_START, duration=0:00:09.939, duration_ms=9939, data={}
-timestamp=[2023-05-05 21:58:19], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.169, duration_ms=169, data={}
-timestamp=[2023-05-05 21:58:20], mode=WORKBENCH_UI_INIT, duration=0:00:01.308, duration_ms=1308, data={editors_count=3, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
