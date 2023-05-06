@@ -1,4 +1,4 @@
-21:13:02 **** Incremental Build of configuration Debug for project micropy ****
+21:21:04 **** Incremental Build of configuration Debug for project micropy ****
 /home/antonio/git/zybo-micropython/micropy/ports/xilinx/mymake.sh all 
 Removing custom PYTHONHOME and PYTHONPATH from Vitis IDE
 removing build directory:
@@ -315,5 +315,5 @@ arm-none-eabi-size build/micropython.elf  |tee "micropython.elf.size"
 Finished building: build/micropython.elf.size
  
 
-21:13:27 Build Finished (took 24s.439ms)
+21:21:27 Build Finished (took 23s.132ms)
 
