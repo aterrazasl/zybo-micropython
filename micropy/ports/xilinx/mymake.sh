@@ -22,5 +22,5 @@ rm -R build
 
 echo Starting Make:
 make V=1 CROSS=1
-cp build/micropython.elf ../../Debug/micropython.elf
+cp build/micropython.elf ../../Debug/micropy.elf
 
