@@ -504,3 +504,148 @@ con
 ----------------End of Script----------------
 
 21:21:54 INFO  : Launch script is exported to file '/home/antonio/git/zybo-micropython/micropy_system/_ide/scripts/systemdebugger_micropy_system_standalone.tcl'
+21:55:51 INFO  : Disconnected from the channel tcfchan#10.
+21:55:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:55:52 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:55:52 INFO  : 'jtag frequency' command is executed.
+21:55:52 INFO  : Context for 'APU' is selected.
+21:55:52 INFO  : System reset is completed.
+21:55:55 INFO  : 'after 3000' command is executed.
+21:55:55 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:55:56 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:55:56 INFO  : Context for 'APU' is selected.
+21:56:00 INFO  : Hardware design and registers information is loaded from '/home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa'.
+21:56:00 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:56:00 INFO  : 'configparams force-mem-access 1' command is executed.
+21:56:00 INFO  : Context for 'APU' is selected.
+21:56:00 INFO  : Sourcing of '/home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl' is done.
+21:56:01 INFO  : 'ps7_init' command is executed.
+21:56:01 INFO  : 'ps7_post_config' command is executed.
+21:56:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:56:02 INFO  : The application '/home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:56:02 INFO  : 'configparams force-mem-access 0' command is executed.
+21:56:02 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:56:02 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:56:02 INFO  : 'con' command is executed.
+21:56:02 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:56:02 INFO  : Launch script is exported to file '/home/antonio/git/zybo-micropython/micropy_system/_ide/scripts/systemdebugger_micropy_system_standalone.tcl'
+21:56:02 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:56:02 INFO  : 'jtag frequency' command is executed.
+21:56:02 INFO  : Context for 'APU' is selected.
+21:56:02 INFO  : System reset is completed.
+21:56:05 INFO  : 'after 3000' command is executed.
+21:56:05 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:56:06 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:56:06 INFO  : Context for 'APU' is selected.
+21:56:06 ERROR : can't read "map": no such variable
+21:56:06 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+----------------End of Script----------------
+
+21:56:06 ERROR : can't read "map": no such variable
+21:56:10 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:56:10 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:56:10 INFO  : 'jtag frequency' command is executed.
+21:56:10 INFO  : Context for 'APU' is selected.
+21:56:10 INFO  : System reset is completed.
+21:56:13 INFO  : 'after 3000' command is executed.
+21:56:13 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:56:14 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:56:14 INFO  : Context for 'APU' is selected.
+21:56:14 ERROR : can't read "map": no such variable
+21:56:14 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+----------------End of Script----------------
+
+21:56:14 ERROR : can't read "map": no such variable
+21:56:50 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:56:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:56:51 INFO  : 'jtag frequency' command is executed.
+21:56:51 INFO  : Context for 'APU' is selected.
+21:56:51 INFO  : System reset is completed.
+21:56:54 INFO  : 'after 3000' command is executed.
+21:56:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:56:55 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:56:55 INFO  : Context for 'APU' is selected.
+21:56:55 ERROR : can't read "map": no such variable
+21:56:55 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+----------------End of Script----------------
+
+21:56:55 ERROR : can't read "map": no such variable
+21:57:31 ERROR : (XSDB Server)ERROR: [Hsi 55-1571] The design file /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa is already opened
+
+21:57:42 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:57:42 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:57:42 INFO  : 'jtag frequency' command is executed.
+21:57:42 INFO  : Context for 'APU' is selected.
+21:57:42 INFO  : System reset is completed.
+21:57:45 INFO  : 'after 3000' command is executed.
+21:57:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:57:46 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:57:47 INFO  : Context for 'APU' is selected.
+21:57:47 ERROR : can't read "map": no such variable
+21:57:47 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+----------------End of Script----------------
+
+21:57:47 ERROR : can't read "map": no such variable
+21:58:17 DEBUG : Logs will be stored at '/home/antonio/git/zybo-micropython/IDE.log'.
+21:58:19 INFO  : Launching XSCT server: xsct -n  -interactive /home/antonio/git/zybo-micropython/temp_xsdb_launch_script.tcl
+21:58:19 INFO  : Platform repository initialization has completed.
+21:58:20 INFO  : Registering command handlers for Vitis TCF services
+21:58:23 INFO  : XSCT server has started successfully.
+21:58:23 INFO  : Successfully done setting XSCT server connection channel  
+21:58:23 INFO  : plnx-install-location is set to ''
+21:58:24 INFO  : Successfully done setting workspace for the tool. 
+21:58:24 INFO  : Successfully done query RDI_DATADIR 
