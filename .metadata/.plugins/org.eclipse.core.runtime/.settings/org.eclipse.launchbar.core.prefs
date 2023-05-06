@@ -5,5 +5,5 @@ configDescList=org.eclipse.launchbar.core.descriptorType.default\:Debugger_micro
 eclipse.preferences.version=1
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_micropy-Default/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Debugger_micropy-Default/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
-org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_micropy_system/activeLaunchMode=systemrun
+org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_micropy_system/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:SystemDebugger_micropy_system/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local

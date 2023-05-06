@@ -1,16 +1,6 @@
-2023-05-05T20:38:55.14229100255-20:38:55 **** Incremental Build of configuration Debug for project micropy ****
+2023-05-05T20:52:19.66305700255-20:52:19 **** Incremental Build of configuration Debug for project micropy ****
 000-/home/antonio/git/zybo-micropython/micropy/ports/xilinx/mymake.sh all 
-000-PATH env:
-000-/tools/Xilinx/Vitis/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/linux_toolchain/lin64_le/bin:/tools/Xilinx/Vitis/2022.2/gnu/microblaze/linux_toolchain/lin64_be/bin:/tools/Xilinx/Vitis/2022.2/gnu/arm/lin/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-none/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch64/lin/aarch64-linux/bin:/tools/Xilinx/Vitis/2022.2/gnu/armr5/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/bin:/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-linux-gnueabi/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/cmake-3.21.4/bin::/tools/Xilinx/Vivado/2022.2/gnu/microblaze/lin/bin:/tools/Xilinx/Vitis/2022.2/bin:/tools/Xilinx/Vitis/2022.2/tps/lnx64/jre11.0.11_9/bin:/tools/Xilinx/Vitis_HLS/2022.2/bin:/tools/Xilinx/Vitis/2022.2/aietools/bin:/tools/Xilinx/Vivado/2022.2/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-000-
-000-Python Home:
-000-
-000-
-000-Python Path:
-000-
-000-
-000-Python sys:
-000-
+000-Removing custom PYTHONHOME and PYTHONPATH from Vitis IDE
 000-removing build directory:
 000-Starting Make:
 000-mkdir -p build/genhdr
@@ -325,5 +315,5 @@
 000-Finished building: build/micropython.elf.size
 000- 
 00255-
-20:39:21 Build Finished (took 26s.633ms)
+20:52:43 Build Finished (took 23s.794ms)
 

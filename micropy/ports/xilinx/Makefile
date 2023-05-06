@@ -4,7 +4,6 @@ include ../../micropython/py/mkenv.mk
 ELFSIZE += \
 micropython.elf.size \
 
-CROSS = 1
 
 # qstr definitions (must come before including py.mk)
 QSTR_DEFS = qstrdefsport.h
@@ -16,26 +15,16 @@ MICROPY_ROM_TEXT_COMPRESSION ?= 1
 # include py core make definitions
 include $(TOP)/py/py.mk
 
-ifeq ($(CROSS), 1)
 CROSS_COMPILE ?= arm-none-eabi-
-endif
 
 INC += -I.
 INC += -I$(TOP)
 INC += -I$(BUILD)
 
-ifeq ($(CROSS), 1)
-DFU = $(TOP)/tools/dfu.py
-PYDFU = $(TOP)/tools/pydfu.py
 CFLAGS_CORTEX_M4 = -mthumb -mtune=cortex-m4 -mcpu=cortex-m4 -msoft-float -fsingle-precision-constant -Wdouble-promotion -Wfloat-conversion
 CFLAGS += $(INC) -Wall -Werror -std=c99 -nostdlib $(CFLAGS_CORTEX_M4) $(COPT)
 LDFLAGS += -nostdlib -T stm32f405.ld -Map=$@.map --cref --gc-sections
 MYLDFLAGS += -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,lscript.ld -L/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bsplib/lib #-o "mp_minimum.elf" $(OBJS) $(USER_OBJS) $(LIBS)
-else
-LD = $(CC)
-CFLAGS += $(INC) -Wall -Werror -Wdouble-promotion -Wfloat-conversion -std=c99 $(COPT)
-LDFLAGS += -Wl,-Map=$@.map,--cref -Wl,--gc-sections 
-endif
 
 CSUPEROPT = -Os # save some code space
 
@@ -65,9 +54,7 @@ SRC_C = \
 	shared/runtime/stdout_helpers.c \
 	$(BUILD)/_frozen_mpy.c \
 
-ifeq ($(CROSS), 1)
 SRC_C += shared/libc/string0.c
-endif
 
 SRC_QSTR += shared/readline/readline.c shared/runtime/pyexec.c
 
@@ -75,11 +62,7 @@ OBJ += $(PY_CORE_O)
 OBJ += $(addprefix $(BUILD)/, $(SRC_C:.c=.o))
 OBJ += $(addprefix $(BUILD)/, $(SRC_CXX:.cpp=.o))
 
-ifeq ($(CROSS), 1)
-all: $(BUILD)/$(ELFSIZE) #$(BUILD)/firmware.dfu
-else
-all: $(BUILD)/micropython.elf
-endif
+all: $(BUILD)/$(ELFSIZE)
 
 $(BUILD)/_frozen_mpy.c: $(TOP)/tests/frozen/frozentest.mpy $(BUILD)/genhdr/qstrdefs.generated.h
 	$(ECHO) "MISC freezing bytecode"
@@ -101,13 +84,6 @@ $(BUILD)/micropython.elf.size: $(BUILD)/micropython.elf
 $(BUILD)/firmware.bin: $(BUILD)/micropython.elf
 	$(Q)$(OBJCOPY) -O binary -j .isr_vector -j .text -j .data $^ $(BUILD)/firmware.bin
 
-$(BUILD)/firmware.dfu: $(BUILD)/firmware.bin
-	$(ECHO) "Create $@"
-	$(Q)$(PYTHON) $(DFU) -b 0x08000000:$(BUILD)/firmware.bin $@
-
-deploy: $(BUILD)/firmware.dfu
-	$(ECHO) "Writing $< to the board"
-	$(Q)$(PYTHON) $(PYDFU) -u $<
 
 # Run emulation build on a POSIX system with suitable terminal settings
 run:

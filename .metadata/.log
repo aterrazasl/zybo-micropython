@@ -13388,3 +13388,492 @@ Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-16: Launc
 
 !ENTRY com.xilinx.sdk.utils 1 0 2023-05-05 20:39:52.594
 !MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.071
+!MESSAGE XSCT Command: [disconnect tcfchan#1], Thread: Thread-121
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.079
+!MESSAGE XSCT command with result: [disconnect tcfchan#1], Result: [null, ]. Thread: Thread-121
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.120
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.153
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#2]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.154
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.170
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.171
+!MESSAGE XSCT Command: [version -server], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.173
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2.0]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.174
+!MESSAGE XSCT Command: [version], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.175
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.176
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.190
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.190
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.210
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.211
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.220
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.221
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.241
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.241
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.247
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.247
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.273
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.274
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.289
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.289
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.322
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.322
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.330
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.331
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.355
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.356
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.362
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.363
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.389
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.390
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AB6EC6A" && level == 0}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.412
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AB6EC6A" && level == 0}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.413
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.414
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.415
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.437
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.439
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.497
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:20.498
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.500
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.515
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.523
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.524
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.543
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.544
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.589
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:23.590
+!MESSAGE XSCT Command: [fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:24.799
+!MESSAGE XSCT command with result: [fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:24.823
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:24.841
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:24.842
+!MESSAGE XSCT Command: [loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.935
+!MESSAGE XSCT command with result: [loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_0]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.936
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.938
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.939
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.951
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.952
+!MESSAGE XSCT Command: [source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.954
+!MESSAGE XSCT command with result: [source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:28.955
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:29.342
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:29.343
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:29.349
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:29.350
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:29.370
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:29.371
+!MESSAGE XSCT Command: [dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.197
+!MESSAGE XSCT command with result: [dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.197
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.220
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.233
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.250
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.251
+!MESSAGE XSCT Command: [con], Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:44:30.281
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-5: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-05 20:44:30.283
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-05 20:44:30.283
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '2'
+
+!ENTRY com.xilinx.sdx.core 1 0 2023-05-05 20:48:50.943
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.842
+!MESSAGE XSCT Command: [disconnect tcfchan#2], Thread: Thread-182
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.848
+!MESSAGE XSCT command with result: [disconnect tcfchan#2], Result: [null, ]. Thread: Thread-182
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.908
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.957
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#3]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.958
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.987
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.988
+!MESSAGE XSCT Command: [version -server], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.990
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2022.2.0]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.996
+!MESSAGE XSCT Command: [version], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.997
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2022.2.0
+SW Build 0 on 2022-10-13-12:09:36
+Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:48.999
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.009
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.009
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.033
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.033
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.041
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.042
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.063
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.064
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.071
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.071
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.091
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.092
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.101
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.101
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.122
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.122
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.131
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.132
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.152
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.153
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.162
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.163
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.182
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.182
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AB6EC6A" && level == 0}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.209
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Digilent Zybo Z7 210351AB6EC6A" && level == 0}], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.210
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.211
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.212
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.230
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.231
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.288
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:49.289
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.292
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.312
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.321
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Digilent Zybo Z7 210351AB6EC6A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.321
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.340
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==1}], Result: [null,      2  arm_dap (idcode 4ba00477 irlen 4)
+     3  xc7z010 (idcode 13722093 irlen 6 fpga)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.341
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.384
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:52.384
+!MESSAGE XSCT Command: [fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:53.589
+!MESSAGE XSCT command with result: [fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:53.608
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:53.624
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:53.625
+!MESSAGE XSCT Command: [loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.528
+!MESSAGE XSCT command with result: [loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs], Result: [null, design_1_wrapper_1]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.529
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.530
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.531
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*"}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.540
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*"}], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.542
+!MESSAGE XSCT Command: [source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.544
+!MESSAGE XSCT command with result: [source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.545
+!MESSAGE XSCT Command: [ps7_init], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.836
+!MESSAGE XSCT command with result: [ps7_init], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.836
+!MESSAGE XSCT Command: [ps7_post_config], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.845
+!MESSAGE XSCT command with result: [ps7_post_config], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.846
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.855
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:57.856
+!MESSAGE XSCT Command: [dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.671
+!MESSAGE XSCT command with result: [dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.671
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.699
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.712
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~ "*A9*#0"}], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.729
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~ "*A9*#0"}], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.729
+!MESSAGE XSCT Command: [con], Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 0 0 2023-05-05 20:52:58.758
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-26: Launching SystemDebugger_micropy_system
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-05 20:52:58.759
+!MESSAGE Tool usage for 'TCF_APP_DEBUG' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 1 0 2023-05-05 20:52:58.759
+!MESSAGE Tool usage for 'TCF_SYSTEM_DEBUG' updated to '3'
