@@ -1,62 +1,62 @@
 build/uart_core.o build/uart_core.o: uart_core.c \
  ../../micropython/py/mpconfig.h mpconfigport.h platform.h \
  platform_config.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xuartps_hw.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_assert.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_io.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xstatus.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xreg_cortexa9.h \
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm_gcc.h
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xuartps_hw.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_assert.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_io.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_printf.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters_ps.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/bspconfig.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xstatus.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xreg_cortexa9.h \
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm_gcc.h
 ../../micropython/py/mpconfig.h:
 mpconfigport.h:
 platform.h:
 platform_config.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xuartps_hw.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_assert.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_io.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xstatus.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xreg_cortexa9.h:
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm_gcc.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xuartps_hw.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_assert.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_io.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_printf.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters_ps.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/bspconfig.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xstatus.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xreg_cortexa9.h:
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm_gcc.h:
 uart_core.c :
  ../../micropython/py/mpconfig.h mpconfigport.h platform.h :
  platform_config.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xuartps_hw.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_assert.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_io.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xstatus.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xreg_cortexa9.h :
- /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm_gcc.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xuartps_hw.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_assert.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_io.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_printf.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters_ps.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/bspconfig.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xstatus.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xreg_cortexa9.h :
+ ../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm_gcc.h :
 ../../micropython/py/mpconfig.h: :
 mpconfigport.h: :
 platform.h: :
 platform_config.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xuartps_hw.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_assert.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_io.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xstatus.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xreg_cortexa9.h: :
-/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xpseudo_asm_gcc.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xuartps_hw.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_types.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_assert.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_io.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xil_printf.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xparameters_ps.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/bspconfig.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xstatus.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xreg_cortexa9.h: :
+../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include/xpseudo_asm_gcc.h: :

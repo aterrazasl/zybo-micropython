@@ -1235,6 +1235,7 @@
             <includePath path="/home/antonio/git/zybo-micropython/micropy/micropython/ports/xilinx"/>
             <includePath path="/home/antonio/git/zybo-micropython/micropy/micropython"/>
             <includePath path="/home/antonio/git/zybo-micropython/micropy/ports/xilinx/build"/>
+            <includePath path="/home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include"/>
             <includePath path="/home/antonio/git/zybo-micropython/micropy/micropython/ports/xilinx/build"/>
             <includePath path="/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include"/>
             <includePath path="/tools/Xilinx/Vitis/2022.2/gnu/aarch32/lin/gcc-arm-none-eabi/x86_64-oesdk-linux/usr/bin/arm-xilinx-eabi/../../lib/arm-xilinx-eabi/gcc/arm-xilinx-eabi/11.2.0/include"/>

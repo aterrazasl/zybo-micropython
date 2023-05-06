@@ -20,25 +20,12 @@ CROSS_COMPILE ?= arm-none-eabi-
 INC += -I.
 INC += -I$(TOP)
 INC += -I$(BUILD)
+INC += -I../../../hdmi_video_out/export/hdmi_video_out/sw/hdmi_video_out/standalone_ps7_cortexa9_0/bspinclude/include
 
-CFLAGS_CORTEX_M4 = -mthumb -mtune=cortex-m4 -mcpu=cortex-m4 -msoft-float -fsingle-precision-constant -Wdouble-promotion -Wfloat-conversion
-CFLAGS += $(INC) -Wall -Werror -std=c99 -nostdlib $(CFLAGS_CORTEX_M4) $(COPT)
-LDFLAGS += -nostdlib -T stm32f405.ld -Map=$@.map --cref --gc-sections
-MYLDFLAGS += -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,lscript.ld -L/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bsplib/lib #-o "mp_minimum.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 
-CSUPEROPT = -Os # save some code space
+LDFLAGS += -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -Wl,-build-id=none -specs=Xilinx.spec -Wl,-T -Wl,lscript.ld -L/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bsplib/lib #-o "mp_minimum.elf" $(OBJS) $(USER_OBJS) $(LIBS)
 
-# Tune for Debugging or Optimization
-CFLAGS += -g  # always include debug info in the ELF
-ifeq ($(DEBUG), 1)
-CFLAGS += -O0
-else
-CFLAGS += -Os -DNDEBUG
-CFLAGS += -fdata-sections -ffunction-sections
-endif
-
-undefine $(CFLAGS)
-CFLAGS = -I. -I../../micropython -Ibuild -std=c99 -nostdlib -mthumb   -fsingle-precision-constant -Wdouble-promotion -Wfloat-conversion  -DNDEBUG -fdata-sections -ffunction-sections -DMICROPY_ROM_TEXT_COMPRESSION=1 -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard -I/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"   
+CFLAGS = $(INC) -std=c99 -nostdlib -mthumb -fsingle-precision-constant -Wdouble-promotion -Wfloat-conversion  -DNDEBUG -fdata-sections -ffunction-sections -DMICROPY_ROM_TEXT_COMPRESSION=1 -Wall -O0 -g3 -c -fmessage-length=0 -MT"$@" -mcpu=cortex-a9 -mfpu=vfpv3 -mfloat-abi=hard  -MMD -MP -MF"$(@:%.o=%.d)" -MT"$(@)"   
 
 # Flags for optional C++ source code
 CXXFLAGS += $(filter-out -std=c99,$(CFLAGS))
@@ -70,7 +57,7 @@ $(BUILD)/_frozen_mpy.c: $(TOP)/tests/frozen/frozentest.mpy $(BUILD)/genhdr/qstrd
 
 $(BUILD)/micropython.elf: $(OBJ)
 	$(ECHO) "LINK $@"
-	$(Q)$(CC) $(MYLDFLAGS) -o $@ $^ $(LIBS)  -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+	$(Q)$(CC) $(LDFLAGS) -o $@ $^ $(LIBS)  -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
 	$(Q)$(SIZE) $@
 	@echo 'Finished LINK: $@'
 

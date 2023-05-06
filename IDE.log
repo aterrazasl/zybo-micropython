@@ -269,3 +269,142 @@ con
 ----------------End of Script----------------
 
 20:52:58 INFO  : Launch script is exported to file '/home/antonio/git/zybo-micropython/micropy_system/_ide/scripts/systemdebugger_micropy_system_standalone.tcl'
+21:00:51 INFO  : Disconnected from the channel tcfchan#3.
+21:00:51 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:00:51 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:00:51 INFO  : 'jtag frequency' command is executed.
+21:00:51 INFO  : Context for 'APU' is selected.
+21:00:51 INFO  : System reset is completed.
+21:00:54 INFO  : 'after 3000' command is executed.
+21:00:54 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:00:55 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:00:56 INFO  : Context for 'APU' is selected.
+21:00:59 INFO  : Hardware design and registers information is loaded from '/home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa'.
+21:00:59 INFO  : 'configparams force-mem-access 1' command is executed.
+21:00:59 INFO  : Context for 'APU' is selected.
+21:00:59 INFO  : Sourcing of '/home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl' is done.
+21:01:00 INFO  : 'ps7_init' command is executed.
+21:01:00 INFO  : 'ps7_post_config' command is executed.
+21:01:00 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:01:01 INFO  : The application '/home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:01:01 INFO  : 'configparams force-mem-access 0' command is executed.
+21:01:01 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:01:01 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:01:01 INFO  : 'con' command is executed.
+21:01:01 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:01:01 INFO  : Launch script is exported to file '/home/antonio/git/zybo-micropython/micropy_system/_ide/scripts/systemdebugger_micropy_system_standalone.tcl'
+21:01:14 INFO  : Disconnected from the channel tcfchan#4.
+21:01:15 INFO  : XRT server has started successfully on port '4355'
+21:01:15 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:01:15 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:01:15 INFO  : 'jtag frequency' command is executed.
+21:01:15 INFO  : Context for 'APU' is selected.
+21:01:15 INFO  : System reset is completed.
+21:01:18 INFO  : 'after 3000' command is executed.
+21:01:18 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:01:20 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:01:20 INFO  : Context for 'APU' is selected.
+21:01:24 INFO  : Hardware design and registers information is loaded from '/home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa'.
+21:01:24 INFO  : 'configparams force-mem-access 1' command is executed.
+21:01:24 INFO  : Context for 'APU' is selected.
+21:01:24 INFO  : Sourcing of '/home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl' is done.
+21:01:24 INFO  : 'ps7_init' command is executed.
+21:01:24 INFO  : 'ps7_post_config' command is executed.
+21:01:24 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:01:25 INFO  : The application '/home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:01:25 INFO  : 'configparams force-mem-access 0' command is executed.
+21:01:25 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:01:25 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:01:25 INFO  : 'con' command is executed.
+21:01:25 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:01:25 INFO  : Launch script is exported to file '/home/antonio/git/zybo-micropython/micropy_system/_ide/scripts/systemdebugger_micropy_system_standalone.tcl'
+21:02:01 INFO  : Disconnected from the channel tcfchan#5.
+21:06:41 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+21:06:42 INFO  : Jtag cable 'Digilent Zybo Z7 210351AB6EC6A' is selected.
+21:06:42 INFO  : 'jtag frequency' command is executed.
+21:06:42 INFO  : Context for 'APU' is selected.
+21:06:42 INFO  : System reset is completed.
+21:06:45 INFO  : 'after 3000' command is executed.
+21:06:45 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}' command is executed.
+21:06:46 INFO  : Device configured successfully with "/home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit"
+21:06:46 INFO  : Context for 'APU' is selected.
+21:06:50 INFO  : Hardware design and registers information is loaded from '/home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa'.
+21:06:50 INFO  : 'configparams force-mem-access 1' command is executed.
+21:06:50 INFO  : Context for 'APU' is selected.
+21:06:50 INFO  : Sourcing of '/home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl' is done.
+21:06:51 INFO  : 'ps7_init' command is executed.
+21:06:51 INFO  : 'ps7_post_config' command is executed.
+21:06:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:06:51 INFO  : The application '/home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf' is downloaded to processor 'ps7_cortexa9_0'.
+21:06:51 INFO  : 'configparams force-mem-access 0' command is executed.
+21:06:51 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -nocase -filter {name =~"APU*"}
+rst -system
+after 3000
+targets -set -filter {jtag_cable_name =~ "Digilent Zybo Z7 210351AB6EC6A" && level==0 && jtag_device_ctx=="jsn-Zybo Z7-210351AB6EC6A-13722093-0"}
+fpga -file /home/antonio/git/zybo-micropython/micropy/_ide/bitstream/hdmi_video_out.bit
+targets -set -nocase -filter {name =~"APU*"}
+loadhw -hw /home/antonio/git/zybo-micropython/hdmi_video_out/export/hdmi_video_out/hw/hdmi_video_out.xsa -mem-ranges [list {0x40000000 0xbfffffff}] -regs
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"APU*"}
+source /home/antonio/git/zybo-micropython/micropy/_ide/psinit/ps7_init.tcl
+ps7_init
+ps7_post_config
+targets -set -nocase -filter {name =~ "*A9*#0"}
+dow /home/antonio/git/zybo-micropython/micropy/Debug/micropy.elf
+configparams force-mem-access 0
+----------------End of Script----------------
+
+21:06:51 INFO  : Context for processor 'ps7_cortexa9_0' is selected.
+21:06:52 INFO  : 'con' command is executed.
+21:06:52 INFO  : ----------------XSDB Script (After Launch)----------------
+targets -set -nocase -filter {name =~ "*A9*#0"}
+con
+----------------End of Script----------------
+
+21:06:52 INFO  : Launch script is exported to file '/home/antonio/git/zybo-micropython/micropy_system/_ide/scripts/systemdebugger_micropy_system_standalone.tcl'
