@@ -1,0 +1,9 @@
+build/py/emitnxtensawin.o build/py/emitnxtensawin.o: \
+ ../../micropython/py/emitnxtensawin.c ../../micropython/py/mpconfig.h \
+ mpconfigport.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+ ../../micropython/py/emitnxtensawin.c ../../micropython/py/mpconfig.h :
+ mpconfigport.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :

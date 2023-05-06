@@ -1,0 +1,18 @@
+build/py/unicode.o build/py/unicode.o: ../../micropython/py/unicode.c \
+ ../../micropython/py/unicode.h ../../micropython/py/mpconfig.h \
+ mpconfigport.h ../../micropython/py/misc.h \
+ build/genhdr/compressed.data.h
+../../micropython/py/unicode.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/unicode.c :
+ ../../micropython/py/unicode.h ../../micropython/py/mpconfig.h :
+ mpconfigport.h ../../micropython/py/misc.h :
+ build/genhdr/compressed.data.h :
+../../micropython/py/unicode.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :

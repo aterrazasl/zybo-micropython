@@ -1,0 +1,6 @@
+build/py/ringbuf.o build/py/ringbuf.o: ../../micropython/py/ringbuf.c \
+ ../../micropython/py/ringbuf.h
+../../micropython/py/ringbuf.h:
+../../micropython/py/ringbuf.c :
+ ../../micropython/py/ringbuf.h :
+../../micropython/py/ringbuf.h: :

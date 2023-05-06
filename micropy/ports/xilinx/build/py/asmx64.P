@@ -1,0 +1,8 @@
+build/py/asmx64.o build/py/asmx64.o: ../../micropython/py/asmx64.c \
+ ../../micropython/py/mpconfig.h mpconfigport.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/asmx64.c :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :

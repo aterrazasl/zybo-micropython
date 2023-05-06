@@ -1,0 +1,18 @@
+build/py/mpz.o build/py/mpz.o: ../../micropython/py/mpz.c \
+ ../../micropython/py/mpz.h ../../micropython/py/mpconfig.h \
+ mpconfigport.h ../../micropython/py/misc.h \
+ build/genhdr/compressed.data.h
+../../micropython/py/mpz.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/mpz.c :
+ ../../micropython/py/mpz.h ../../micropython/py/mpconfig.h :
+ mpconfigport.h ../../micropython/py/misc.h :
+ build/genhdr/compressed.data.h :
+../../micropython/py/mpz.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :

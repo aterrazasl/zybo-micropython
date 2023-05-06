@@ -1,0 +1,66 @@
+build/py/objfun.o build/py/objfun.o: ../../micropython/py/objfun.c \
+ ../../micropython/py/objtuple.h ../../micropython/py/obj.h \
+ ../../micropython/py/mpconfig.h mpconfigport.h \
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h \
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h \
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h \
+ ../../micropython/py/objfun.h ../../micropython/py/bc.h \
+ ../../micropython/py/runtime.h ../../micropython/py/mpstate.h \
+ ../../micropython/py/mpthread.h ../../micropython/py/nlr.h \
+ ../../micropython/py/objlist.h ../../micropython/py/objexcept.h \
+ build/genhdr/root_pointers.h ../../micropython/py/pystack.h \
+ ../../micropython/py/stackctrl.h
+../../micropython/py/objtuple.h:
+../../micropython/py/obj.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../micropython/py/mpprint.h:
+../../micropython/py/runtime0.h:
+../../micropython/py/objfun.h:
+../../micropython/py/bc.h:
+../../micropython/py/runtime.h:
+../../micropython/py/mpstate.h:
+../../micropython/py/mpthread.h:
+../../micropython/py/nlr.h:
+../../micropython/py/objlist.h:
+../../micropython/py/objexcept.h:
+build/genhdr/root_pointers.h:
+../../micropython/py/pystack.h:
+../../micropython/py/stackctrl.h:
+../../micropython/py/objfun.c :
+ ../../micropython/py/objtuple.h ../../micropython/py/obj.h :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h :
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h :
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h :
+ ../../micropython/py/objfun.h ../../micropython/py/bc.h :
+ ../../micropython/py/runtime.h ../../micropython/py/mpstate.h :
+ ../../micropython/py/mpthread.h ../../micropython/py/nlr.h :
+ ../../micropython/py/objlist.h ../../micropython/py/objexcept.h :
+ build/genhdr/root_pointers.h ../../micropython/py/pystack.h :
+ ../../micropython/py/stackctrl.h :
+../../micropython/py/objtuple.h: :
+../../micropython/py/obj.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../micropython/py/mpprint.h: :
+../../micropython/py/runtime0.h: :
+../../micropython/py/objfun.h: :
+../../micropython/py/bc.h: :
+../../micropython/py/runtime.h: :
+../../micropython/py/mpstate.h: :
+../../micropython/py/mpthread.h: :
+../../micropython/py/nlr.h: :
+../../micropython/py/objlist.h: :
+../../micropython/py/objexcept.h: :
+build/genhdr/root_pointers.h: :
+../../micropython/py/pystack.h: :
+../../micropython/py/stackctrl.h: :

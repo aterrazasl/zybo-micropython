@@ -1,0 +1,104 @@
+build/py/modsys.o build/py/modsys.o: ../../micropython/py/modsys.c \
+ ../../micropython/py/builtin.h ../../micropython/py/obj.h \
+ ../../micropython/py/mpconfig.h mpconfigport.h \
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h \
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h \
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h \
+ ../../micropython/py/objlist.h ../../micropython/py/objmodule.h \
+ ../../micropython/py/objtuple.h ../../micropython/py/objstr.h \
+ ../../micropython/py/objarray.h ../../micropython/py/objint.h \
+ ../../micropython/py/mpz.h ../../micropython/py/objtype.h \
+ ../../micropython/py/stream.h ../../micropython/py/mperrno.h \
+ ../../micropython/py/smallint.h ../../micropython/py/runtime.h \
+ ../../micropython/py/mpstate.h ../../micropython/py/mpthread.h \
+ ../../micropython/py/nlr.h ../../micropython/py/objexcept.h \
+ build/genhdr/root_pointers.h ../../micropython/py/pystack.h \
+ ../../micropython/py/persistentcode.h ../../micropython/py/reader.h \
+ ../../micropython/py/emitglue.h ../../micropython/py/bc.h \
+ ../../micropython/extmod/moduplatform.h build/genhdr/mpversion.h
+../../micropython/py/builtin.h:
+../../micropython/py/obj.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../micropython/py/mpprint.h:
+../../micropython/py/runtime0.h:
+../../micropython/py/objlist.h:
+../../micropython/py/objmodule.h:
+../../micropython/py/objtuple.h:
+../../micropython/py/objstr.h:
+../../micropython/py/objarray.h:
+../../micropython/py/objint.h:
+../../micropython/py/mpz.h:
+../../micropython/py/objtype.h:
+../../micropython/py/stream.h:
+../../micropython/py/mperrno.h:
+../../micropython/py/smallint.h:
+../../micropython/py/runtime.h:
+../../micropython/py/mpstate.h:
+../../micropython/py/mpthread.h:
+../../micropython/py/nlr.h:
+../../micropython/py/objexcept.h:
+build/genhdr/root_pointers.h:
+../../micropython/py/pystack.h:
+../../micropython/py/persistentcode.h:
+../../micropython/py/reader.h:
+../../micropython/py/emitglue.h:
+../../micropython/py/bc.h:
+../../micropython/extmod/moduplatform.h:
+build/genhdr/mpversion.h:
+../../micropython/py/modsys.c :
+ ../../micropython/py/builtin.h ../../micropython/py/obj.h :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h :
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h :
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h :
+ ../../micropython/py/objlist.h ../../micropython/py/objmodule.h :
+ ../../micropython/py/objtuple.h ../../micropython/py/objstr.h :
+ ../../micropython/py/objarray.h ../../micropython/py/objint.h :
+ ../../micropython/py/mpz.h ../../micropython/py/objtype.h :
+ ../../micropython/py/stream.h ../../micropython/py/mperrno.h :
+ ../../micropython/py/smallint.h ../../micropython/py/runtime.h :
+ ../../micropython/py/mpstate.h ../../micropython/py/mpthread.h :
+ ../../micropython/py/nlr.h ../../micropython/py/objexcept.h :
+ build/genhdr/root_pointers.h ../../micropython/py/pystack.h :
+ ../../micropython/py/persistentcode.h ../../micropython/py/reader.h :
+ ../../micropython/py/emitglue.h ../../micropython/py/bc.h :
+ ../../micropython/extmod/moduplatform.h build/genhdr/mpversion.h :
+../../micropython/py/builtin.h: :
+../../micropython/py/obj.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../micropython/py/mpprint.h: :
+../../micropython/py/runtime0.h: :
+../../micropython/py/objlist.h: :
+../../micropython/py/objmodule.h: :
+../../micropython/py/objtuple.h: :
+../../micropython/py/objstr.h: :
+../../micropython/py/objarray.h: :
+../../micropython/py/objint.h: :
+../../micropython/py/mpz.h: :
+../../micropython/py/objtype.h: :
+../../micropython/py/stream.h: :
+../../micropython/py/mperrno.h: :
+../../micropython/py/smallint.h: :
+../../micropython/py/runtime.h: :
+../../micropython/py/mpstate.h: :
+../../micropython/py/mpthread.h: :
+../../micropython/py/nlr.h: :
+../../micropython/py/objexcept.h: :
+build/genhdr/root_pointers.h: :
+../../micropython/py/pystack.h: :
+../../micropython/py/persistentcode.h: :
+../../micropython/py/reader.h: :
+../../micropython/py/emitglue.h: :
+../../micropython/py/bc.h: :
+../../micropython/extmod/moduplatform.h: :
+build/genhdr/mpversion.h: :

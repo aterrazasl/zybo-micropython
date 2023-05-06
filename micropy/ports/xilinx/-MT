@@ -1,0 +1,4 @@
+-mcpu=cortex-a9: ../../micropython/py/emitnxtensa.c \
+ ../../micropython/py/mpconfig.h mpconfigport.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:

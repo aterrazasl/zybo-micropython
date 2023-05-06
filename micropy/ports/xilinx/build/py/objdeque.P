@@ -1,0 +1,8 @@
+build/py/objdeque.o build/py/objdeque.o: ../../micropython/py/objdeque.c \
+ ../../micropython/py/mpconfig.h mpconfigport.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/objdeque.c :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :

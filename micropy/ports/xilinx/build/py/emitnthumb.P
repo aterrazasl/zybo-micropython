@@ -1,0 +1,9 @@
+build/py/emitnthumb.o build/py/emitnthumb.o: \
+ ../../micropython/py/emitnthumb.c ../../micropython/py/mpconfig.h \
+ mpconfigport.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+ ../../micropython/py/emitnthumb.c ../../micropython/py/mpconfig.h :
+ mpconfigport.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :

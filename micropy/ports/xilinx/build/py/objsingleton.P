@@ -1,0 +1,29 @@
+build/py/objsingleton.o build/py/objsingleton.o: \
+ ../../micropython/py/objsingleton.c ../../micropython/py/obj.h \
+ ../../micropython/py/mpconfig.h mpconfigport.h \
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h \
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h \
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h
+../../micropython/py/obj.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../micropython/py/mpprint.h:
+../../micropython/py/runtime0.h:
+ ../../micropython/py/objsingleton.c ../../micropython/py/obj.h :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h :
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h :
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h :
+../../micropython/py/obj.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../micropython/py/mpprint.h: :
+../../micropython/py/runtime0.h: :

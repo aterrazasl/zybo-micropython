@@ -1,0 +1,114 @@
+build/main.o build/main.o: main.c ../../micropython/py/builtin.h \
+ ../../micropython/py/obj.h ../../micropython/py/mpconfig.h \
+ mpconfigport.h ../../micropython/py/misc.h \
+ build/genhdr/compressed.data.h ../../micropython/py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../micropython/py/mpprint.h \
+ ../../micropython/py/runtime0.h ../../micropython/py/compile.h \
+ ../../micropython/py/lexer.h ../../micropython/py/reader.h \
+ ../../micropython/py/parse.h ../../micropython/py/emitglue.h \
+ ../../micropython/py/bc.h ../../micropython/py/runtime.h \
+ ../../micropython/py/mpstate.h ../../micropython/py/mpthread.h \
+ ../../micropython/py/nlr.h ../../micropython/py/objlist.h \
+ ../../micropython/py/objexcept.h ../../micropython/py/objtuple.h \
+ build/genhdr/root_pointers.h ../../micropython/py/pystack.h \
+ ../../micropython/py/repl.h ../../micropython/py/gc.h \
+ ../../micropython/py/mperrno.h ../../micropython/shared/runtime/pyexec.h \
+ platform.h platform_config.h \
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h \
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h \
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h \
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h \
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h
+../../micropython/py/builtin.h:
+../../micropython/py/obj.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../micropython/py/mpprint.h:
+../../micropython/py/runtime0.h:
+../../micropython/py/compile.h:
+../../micropython/py/lexer.h:
+../../micropython/py/reader.h:
+../../micropython/py/parse.h:
+../../micropython/py/emitglue.h:
+../../micropython/py/bc.h:
+../../micropython/py/runtime.h:
+../../micropython/py/mpstate.h:
+../../micropython/py/mpthread.h:
+../../micropython/py/nlr.h:
+../../micropython/py/objlist.h:
+../../micropython/py/objexcept.h:
+../../micropython/py/objtuple.h:
+build/genhdr/root_pointers.h:
+../../micropython/py/pystack.h:
+../../micropython/py/repl.h:
+../../micropython/py/gc.h:
+../../micropython/py/mperrno.h:
+../../micropython/shared/runtime/pyexec.h:
+platform.h:
+platform_config.h:
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h:
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h:
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h:
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h:
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h:
+main.c ../../micropython/py/builtin.h :
+ ../../micropython/py/obj.h ../../micropython/py/mpconfig.h :
+ mpconfigport.h ../../micropython/py/misc.h :
+ build/genhdr/compressed.data.h ../../micropython/py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../micropython/py/mpprint.h :
+ ../../micropython/py/runtime0.h ../../micropython/py/compile.h :
+ ../../micropython/py/lexer.h ../../micropython/py/reader.h :
+ ../../micropython/py/parse.h ../../micropython/py/emitglue.h :
+ ../../micropython/py/bc.h ../../micropython/py/runtime.h :
+ ../../micropython/py/mpstate.h ../../micropython/py/mpthread.h :
+ ../../micropython/py/nlr.h ../../micropython/py/objlist.h :
+ ../../micropython/py/objexcept.h ../../micropython/py/objtuple.h :
+ build/genhdr/root_pointers.h ../../micropython/py/pystack.h :
+ ../../micropython/py/repl.h ../../micropython/py/gc.h :
+ ../../micropython/py/mperrno.h ../../micropython/shared/runtime/pyexec.h :
+ platform.h platform_config.h :
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h :
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h :
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h :
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h :
+ /home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h :
+../../micropython/py/builtin.h: :
+../../micropython/py/obj.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../micropython/py/mpprint.h: :
+../../micropython/py/runtime0.h: :
+../../micropython/py/compile.h: :
+../../micropython/py/lexer.h: :
+../../micropython/py/reader.h: :
+../../micropython/py/parse.h: :
+../../micropython/py/emitglue.h: :
+../../micropython/py/bc.h: :
+../../micropython/py/runtime.h: :
+../../micropython/py/mpstate.h: :
+../../micropython/py/mpthread.h: :
+../../micropython/py/nlr.h: :
+../../micropython/py/objlist.h: :
+../../micropython/py/objexcept.h: :
+../../micropython/py/objtuple.h: :
+build/genhdr/root_pointers.h: :
+../../micropython/py/pystack.h: :
+../../micropython/py/repl.h: :
+../../micropython/py/gc.h: :
+../../micropython/py/mperrno.h: :
+../../micropython/shared/runtime/pyexec.h: :
+platform.h: :
+platform_config.h: :
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_printf.h: :
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xil_types.h: :
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters.h: :
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/xparameters_ps.h: :
+/home/antonio/git/vitisMP/mp_basic/export/mp_basic/sw/mp_basic/standalone_domain/bspinclude/include/bspconfig.h: :

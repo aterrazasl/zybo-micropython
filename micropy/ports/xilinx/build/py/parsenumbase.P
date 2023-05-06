@@ -1,0 +1,17 @@
+build/py/parsenumbase.o build/py/parsenumbase.o: \
+ ../../micropython/py/parsenumbase.c ../../micropython/py/mpconfig.h \
+ mpconfigport.h ../../micropython/py/misc.h \
+ build/genhdr/compressed.data.h ../../micropython/py/parsenumbase.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/parsenumbase.h:
+ ../../micropython/py/parsenumbase.c ../../micropython/py/mpconfig.h :
+ mpconfigport.h ../../micropython/py/misc.h :
+ build/genhdr/compressed.data.h ../../micropython/py/parsenumbase.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/parsenumbase.h: :

@@ -1,0 +1,18 @@
+build/py/smallint.o build/py/smallint.o: ../../micropython/py/smallint.c \
+ ../../micropython/py/smallint.h ../../micropython/py/mpconfig.h \
+ mpconfigport.h ../../micropython/py/misc.h \
+ build/genhdr/compressed.data.h
+../../micropython/py/smallint.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/smallint.c :
+ ../../micropython/py/smallint.h ../../micropython/py/mpconfig.h :
+ mpconfigport.h ../../micropython/py/misc.h :
+ build/genhdr/compressed.data.h :
+../../micropython/py/smallint.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :

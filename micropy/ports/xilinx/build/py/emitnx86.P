@@ -1,0 +1,78 @@
+build/py/emitnx86.o build/py/emitnx86.o: ../../micropython/py/emitnx86.c \
+ ../../micropython/py/mpconfig.h mpconfigport.h \
+ ../../micropython/py/nativeglue.h ../../micropython/py/obj.h \
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h \
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h \
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h \
+ ../../micropython/py/persistentcode.h ../../micropython/py/reader.h \
+ ../../micropython/py/emitglue.h ../../micropython/py/bc.h \
+ ../../micropython/py/runtime.h ../../micropython/py/mpstate.h \
+ ../../micropython/py/mpthread.h ../../micropython/py/nlr.h \
+ ../../micropython/py/objlist.h ../../micropython/py/objexcept.h \
+ ../../micropython/py/objtuple.h build/genhdr/root_pointers.h \
+ ../../micropython/py/pystack.h ../../micropython/py/stream.h \
+ ../../micropython/py/mperrno.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/nativeglue.h:
+../../micropython/py/obj.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../micropython/py/mpprint.h:
+../../micropython/py/runtime0.h:
+../../micropython/py/persistentcode.h:
+../../micropython/py/reader.h:
+../../micropython/py/emitglue.h:
+../../micropython/py/bc.h:
+../../micropython/py/runtime.h:
+../../micropython/py/mpstate.h:
+../../micropython/py/mpthread.h:
+../../micropython/py/nlr.h:
+../../micropython/py/objlist.h:
+../../micropython/py/objexcept.h:
+../../micropython/py/objtuple.h:
+build/genhdr/root_pointers.h:
+../../micropython/py/pystack.h:
+../../micropython/py/stream.h:
+../../micropython/py/mperrno.h:
+../../micropython/py/emitnx86.c :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+ ../../micropython/py/nativeglue.h ../../micropython/py/obj.h :
+ ../../micropython/py/misc.h build/genhdr/compressed.data.h :
+ ../../micropython/py/qstr.h build/genhdr/qstrdefs.generated.h :
+ ../../micropython/py/mpprint.h ../../micropython/py/runtime0.h :
+ ../../micropython/py/persistentcode.h ../../micropython/py/reader.h :
+ ../../micropython/py/emitglue.h ../../micropython/py/bc.h :
+ ../../micropython/py/runtime.h ../../micropython/py/mpstate.h :
+ ../../micropython/py/mpthread.h ../../micropython/py/nlr.h :
+ ../../micropython/py/objlist.h ../../micropython/py/objexcept.h :
+ ../../micropython/py/objtuple.h build/genhdr/root_pointers.h :
+ ../../micropython/py/pystack.h ../../micropython/py/stream.h :
+ ../../micropython/py/mperrno.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+../../micropython/py/nativeglue.h: :
+../../micropython/py/obj.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../micropython/py/mpprint.h: :
+../../micropython/py/runtime0.h: :
+../../micropython/py/persistentcode.h: :
+../../micropython/py/reader.h: :
+../../micropython/py/emitglue.h: :
+../../micropython/py/bc.h: :
+../../micropython/py/runtime.h: :
+../../micropython/py/mpstate.h: :
+../../micropython/py/mpthread.h: :
+../../micropython/py/nlr.h: :
+../../micropython/py/objlist.h: :
+../../micropython/py/objexcept.h: :
+../../micropython/py/objtuple.h: :
+build/genhdr/root_pointers.h: :
+../../micropython/py/pystack.h: :
+../../micropython/py/stream.h: :
+../../micropython/py/mperrno.h: :

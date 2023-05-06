@@ -1,0 +1,8 @@
+build/py/emitnarm.o build/py/emitnarm.o: ../../micropython/py/emitnarm.c \
+ ../../micropython/py/mpconfig.h mpconfigport.h
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+../../micropython/py/emitnarm.c :
+ ../../micropython/py/mpconfig.h mpconfigport.h :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :

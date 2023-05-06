@@ -1,0 +1,3 @@
+build/shared/libc/string0.o build/shared/libc/string0.o: \
+ ../../micropython/shared/libc/string0.c
+ ../../micropython/shared/libc/string0.c :

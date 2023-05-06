@@ -1,0 +1,41 @@
+build/shared/runtime/stdout_helpers.o \
+ build/shared/runtime/stdout_helpers.o: \
+ ../../micropython/shared/runtime/stdout_helpers.c \
+ ../../micropython/py/mphal.h ../../micropython/py/mpconfig.h \
+ mpconfigport.h mphalport.h ../../micropython/extmod/virtpin.h \
+ ../../micropython/py/obj.h ../../micropython/py/misc.h \
+ build/genhdr/compressed.data.h ../../micropython/py/qstr.h \
+ build/genhdr/qstrdefs.generated.h ../../micropython/py/mpprint.h \
+ ../../micropython/py/runtime0.h
+../../micropython/py/mphal.h:
+../../micropython/py/mpconfig.h:
+mpconfigport.h:
+mphalport.h:
+../../micropython/extmod/virtpin.h:
+../../micropython/py/obj.h:
+../../micropython/py/misc.h:
+build/genhdr/compressed.data.h:
+../../micropython/py/qstr.h:
+build/genhdr/qstrdefs.generated.h:
+../../micropython/py/mpprint.h:
+../../micropython/py/runtime0.h:
+build/shared/runtime/stdout_helpers.o :
+ ../../micropython/shared/runtime/stdout_helpers.c :
+ ../../micropython/py/mphal.h ../../micropython/py/mpconfig.h :
+ mpconfigport.h mphalport.h ../../micropython/extmod/virtpin.h :
+ ../../micropython/py/obj.h ../../micropython/py/misc.h :
+ build/genhdr/compressed.data.h ../../micropython/py/qstr.h :
+ build/genhdr/qstrdefs.generated.h ../../micropython/py/mpprint.h :
+ ../../micropython/py/runtime0.h :
+../../micropython/py/mphal.h: :
+../../micropython/py/mpconfig.h: :
+mpconfigport.h: :
+mphalport.h: :
+../../micropython/extmod/virtpin.h: :
+../../micropython/py/obj.h: :
+../../micropython/py/misc.h: :
+build/genhdr/compressed.data.h: :
+../../micropython/py/qstr.h: :
+build/genhdr/qstrdefs.generated.h: :
+../../micropython/py/mpprint.h: :
+../../micropython/py/runtime0.h: :
